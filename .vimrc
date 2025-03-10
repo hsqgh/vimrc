@@ -80,7 +80,7 @@ function! VimDiesel()
     highlight ColorColumn ctermbg=darkgrey guibg=#2e3440
 endfunction
 
-let serverMode = 1
+let serverMode = 0
 
 if serverMode == 0
     call VimDiesel()
